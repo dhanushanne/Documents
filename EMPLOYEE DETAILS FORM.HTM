@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+<body>
+<form method=post>
+<h2 align = center><font color = red>Registration Form</font></h2>
+Enter UserName <input type=text name=uname size=100 maxlength=7 placeholder="e.g.ABC">
+<br>
+Enter Password <input type = password name=pwd>
+<br>
+Gender
+<input type = radio name=gender checked> Male
+<input type = radio name=gender> Female
+<br>
+Hobbies
+<br>
+<input type = checkbox name=sing>Singing
+<br>
+<input type = checkbox name=dance checked>Dancing
+<br>
+<input type = checkbox name=act>Acting
+<br>
+<input type = checkbox name=lis>listening Music
+<br>
+<input type = checkbox name=>Acting
+<br>
+Date of Birth<input type = date name = dob>
+<br>
+Place of Birth
+<br>
+<select name=pob>
+<option></option>
+<option>INDIA</option>
+<option selected>TELANGANA</option>
+<option>ANDHRAPRADESH</option>
+<option>KARNATAKA</option>
+</select>
+<br>
+Place of Work
+<br>
+<select name=pow size=5 multiple>
+<option></option>
+<option>HYDERABAD</option>
+<option selected>BANGLORE</option>
+<option>MUMBAI</option>
+<option>DELHI</option>
+</select>
+<br>
+Upload PIC <input type = file name=mypic>
+<br>
+About Yourself
+<br>
+<textarea name=abtme rows=10 cols=15>Myself...</textarea>
+<br>
+Enter Email ID<input type = email name=myemail>
+<br>
+Enter Website Name<input type = url name=myweb>
+<br>
+<input type = submit>
+<input type = reset>
+<input type = button value = Print onclick=print()>
+</form>
+</body>
+</html>
