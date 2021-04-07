@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+<p id="demo"></p>
+
+<script>
+var myDate = new Date();
+document.getElementById("demo").innerHTML = isDate(myDate);
+
+function isDate(myDate) {
+  return myDate.constructor === Date;
+}
+</script>
+
+</body>
+</html>
