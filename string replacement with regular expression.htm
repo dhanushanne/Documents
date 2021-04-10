@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo">my favortie city is hyderabad!</p>
+
+<script>
+function myFunction() {
+  var str = document.getElementById("demo").innerHTML; 
+  var txt = str.replace(/hyderabad/i,"mumbai");
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
+
+</body>
+</html>
