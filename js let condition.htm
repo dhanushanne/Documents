@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<p id="demo"></p>
+
+<script>
+try {
+  carName = "Volvo";
+  let carName;
+  document.getElementById("demo").innerHTML = carName;
+}
+catch(err) {
+  document.getElementById("demo").innerHTML = err.name + ": " + err.message;
+}
+</script>
+
+</body>
+</html>
