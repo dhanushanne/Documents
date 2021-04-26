@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var text = '{"employees":[' +
+'{"firstName":"shiva","lastName":"reddy" },' +
+'{"firstName":"sridhar","lastName":"bolli" },' +
+'{"firstName":"dhanush","lastName":"anne" }]}';
+
+obj = JSON.parse(text);
+document.getElementById("demo").innerHTML =
+obj.employees[2].firstName + " " + obj.employees[2].lastName;
+</script>
+
+</body>
+</html>
